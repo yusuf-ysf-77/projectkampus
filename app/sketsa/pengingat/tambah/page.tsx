@@ -47,7 +47,7 @@ export default function TambahPengingatPage() {
     <div className="space-y-6 max-w-2xl">
       <div className="flex items-center gap-4">
         <Button asChild variant="ghost" size="icon">
-          <Link href="/pengingat">
+          <Link href="/sketsa/pengingat">
             <ArrowLeft className="h-4 w-4" />
           </Link>
         </Button>
@@ -125,7 +125,7 @@ export default function TambahPengingatPage() {
             <div className="flex gap-3 pt-2">
               <Button type="submit">Simpan Pengingat</Button>
               <Button asChild variant="outline">
-                <Link href="/pengingat">Batal</Link>
+                <Link href="/sketsa/pengingat">Batal</Link>
               </Button>
             </div>
           </form>

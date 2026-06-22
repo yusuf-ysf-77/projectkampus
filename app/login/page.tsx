@@ -30,7 +30,7 @@ export default function LoginPage() {
       return;
     }
 
-    router.push("/dashboard");
+    router.push("/sketsa/dashboard");
   };
 
   return (
@@ -41,7 +41,7 @@ export default function LoginPage() {
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary-foreground/20 font-bold text-xl">
               S
             </div>
-            <span className="text-2xl font-bold">ScheduleApp</span>
+            <span className="text-2xl font-bold">OwTask</span>
           </div>
           <h2 className="text-3xl font-extrabold leading-tight">
             Kelola waktu Anda dengan lebih bijak.

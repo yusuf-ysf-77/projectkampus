@@ -42,7 +42,7 @@ export default function TugasPage() {
           <p className="text-muted-foreground">Kelola daftar tugas Anda</p>
         </div>
         <Button asChild>
-          <Link href="/tugas/tambah">
+          <Link href="/sketsa/tugas/tambah">
             <Plus className="mr-2 h-4 w-4" />
             Tambah Tugas
           </Link>
@@ -95,7 +95,7 @@ export default function TugasPage() {
                   </Badge>
                 </div>
                 <Button asChild size="sm" variant="ghost">
-                  <Link href={`/tugas/${item.id}`}>Detail</Link>
+                  <Link href={`/sketsa/tugas/${item.id}`}>Detail</Link>
                 </Button>
               </div>
             </CardContent>

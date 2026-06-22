@@ -26,7 +26,7 @@ export default function JadwalPage() {
           <p className="text-muted-foreground">Kelola jadwal kegiatan Anda</p>
         </div>
         <Button asChild>
-          <Link href="/jadwal/tambah">
+          <Link href="/sketsa/jadwal/tambah">
             <Plus className="mr-2 h-4 w-4" />
             Tambah Jadwal
           </Link>
@@ -81,7 +81,7 @@ export default function JadwalPage() {
               <div className="flex items-center justify-between">
                 <Badge variant="outline">{item.kategori}</Badge>
                 <Button asChild size="sm" variant="ghost">
-                  <Link href={`/jadwal/edit/${item.id}`}>
+                  <Link href={`/sketsa/jadwal/edit/${item.id}`}>
                     <Pencil className="mr-1 h-3 w-3" />
                     Edit
                   </Link>

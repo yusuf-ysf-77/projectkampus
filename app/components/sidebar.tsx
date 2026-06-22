@@ -20,11 +20,11 @@ import { Avatar, AvatarFallback } from "@/app/components/ui/avatar";
 import { Separator } from "@/app/components/ui/separator";
 
 const navItems = [
-  { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/jadwal", label: "Jadwal", icon: Calendar },
-  { href: "/tugas", label: "Tugas", icon: ClipboardList },
-  { href: "/pengingat", label: "Pengingat", icon: Bell },
-  { href: "/profil", label: "Profil", icon: User },
+  { href: "/sketsa/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/sketsa/jadwal", label: "Jadwal", icon: Calendar },
+  { href: "/sketsa/tugas", label: "Tugas", icon: ClipboardList },
+  { href: "/sketsa/pengingat", label: "Pengingat", icon: Bell },
+  { href: "/sketsa/profil", label: "Profil", icon: User },
 ];
 
 function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
@@ -36,7 +36,7 @@ function SidebarContent({ onNavigate }: { onNavigate?: () => void }) {
         <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm">
           S
         </div>
-        <span className="text-lg font-semibold">ScheduleApp</span>
+        <span className="text-lg font-semibold">OwTask</span>
       </div>
       <Separator />
       <nav className="flex-1 space-y-1 p-4">

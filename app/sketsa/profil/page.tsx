@@ -63,7 +63,7 @@ export default function ProfilPage() {
 
       <div className="flex gap-3">
         <Button asChild variant="outline">
-          <Link href="/profil/ubah-password">
+          <Link href="/sketsa/profil/ubah-password">
             <Lock className="mr-2 h-4 w-4" />
             Ubah Password
           </Link>

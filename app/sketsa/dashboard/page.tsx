@@ -67,7 +67,7 @@ export default function DashboardPage() {
           <CardHeader className="flex flex-row items-center justify-between">
             <CardTitle>Jadwal Terdekat</CardTitle>
             <Button asChild size="sm" variant="outline">
-              <Link href="/jadwal">
+              <Link href="/sketsa/jadwal">
                 <Plus className="mr-1 h-3 w-3" />
                 Lihat Semua
               </Link>
@@ -102,7 +102,7 @@ export default function DashboardPage() {
           <CardHeader className="flex flex-row items-center justify-between">
             <CardTitle>Tugas Aktif</CardTitle>
             <Button asChild size="sm" variant="outline">
-              <Link href="/tugas">Lihat</Link>
+              <Link href="/sketsa/tugas">Lihat</Link>
             </Button>
           </CardHeader>
           <CardContent>

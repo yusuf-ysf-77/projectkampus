@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm">
             S
           </div>
-          <span className="text-lg font-bold">ScheduleApp</span>
+          <span className="text-lg font-bold">OwTask</span>
         </div>
         <Link
           href="/login"
@@ -54,7 +54,7 @@ export default function Home() {
         </h1>
         <p className="mt-6 max-w-xl text-lg text-muted-foreground">
           Kelola jadwal, pengingat, dan tugas dalam satu platform.
-          Tingkatkan produktivitas harian Anda dengan ScheduleApp.
+          Tingkatkan produktivitas harian Anda dengan OwTask.
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <Link
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-border px-6 py-8 text-center text-sm text-muted-foreground">
-        &copy; {new Date().getFullYear()} ScheduleApp. All rights reserved.
+        &copy; {new Date().getFullYear()} OwTask. All rights reserved.
       </footer>
     </div>
   );

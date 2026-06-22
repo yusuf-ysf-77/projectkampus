@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ScheduleApp - Penjadwalan & Pengingat",
+  title: "OwTask - Penjadwalan & Pengingat",
   description: "Sistem Penjadwalan, Pengingat, dan Pemberian Tugas Kerja",
 };
 

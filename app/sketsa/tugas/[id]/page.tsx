@@ -34,7 +34,7 @@ export default function DetailTugasPage({
       <div className="text-center py-12">
         <p className="text-muted-foreground">Tugas tidak ditemukan.</p>
         <Button asChild variant="link">
-          <Link href="/tugas">Kembali ke daftar tugas</Link>
+          <Link href="/sketsa/tugas">Kembali ke daftar tugas</Link>
         </Button>
       </div>
     );
@@ -49,7 +49,7 @@ export default function DetailTugasPage({
     <div className="space-y-6 max-w-2xl">
       <div className="flex items-center gap-4">
         <Button asChild variant="ghost" size="icon">
-          <Link href="/tugas">
+          <Link href="/sketsa/tugas">
             <ArrowLeft className="h-4 w-4" />
           </Link>
         </Button>

@@ -1,7 +1,7 @@
 import { Sidebar } from "@/app/components/sidebar";
 import { Header } from "@/app/components/header";
 
-export default function DashboardLayout({
+export default function SketsaLayout({
   children,
 }: {
   children: React.ReactNode;

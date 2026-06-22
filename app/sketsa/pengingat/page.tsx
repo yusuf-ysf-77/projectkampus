@@ -47,7 +47,7 @@ export default function PengingatPage() {
           <p className="text-muted-foreground">Kelola pengingat Anda</p>
         </div>
         <Button asChild>
-          <Link href="/pengingat/tambah">
+          <Link href="/sketsa/pengingat/tambah">
             <Plus className="mr-2 h-4 w-4" />
             Tambah Pengingat
           </Link>
@@ -95,7 +95,7 @@ export default function PengingatPage() {
                 </Badge>
                 <div className="flex gap-1">
                   <Button asChild size="sm" variant="ghost">
-                    <Link href={`/pengingat/edit/${item.id}`}>
+                    <Link href={`/sketsa/pengingat/edit/${item.id}`}>
                       <Pencil className="h-3 w-3" />
                     </Link>
                   </Button>

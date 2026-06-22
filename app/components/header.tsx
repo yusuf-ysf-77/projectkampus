@@ -64,13 +64,13 @@ export function Header() {
           <DropdownMenuLabel>Akun Saya</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem asChild>
-            <Link href="/profil">
+            <Link href="/sketsa/profil">
               <User className="mr-2 h-4 w-4" />
               Profil
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem asChild>
-            <Link href="/profil/ubah-password">
+            <Link href="/sketsa/profil/ubah-password">
               <Settings className="mr-2 h-4 w-4" />
               Ubah Password
             </Link>
